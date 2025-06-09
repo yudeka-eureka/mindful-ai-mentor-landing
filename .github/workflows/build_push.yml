@@ -35,8 +35,8 @@ jobs:
           file: ./Dockerfile
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
-            ghcr.io/${{ github.actor }}/sekolah-web:${{ github.sha }}
-            ghcr.io/${{ github.actor }}/sekolah-web:latest
+            ghcr.io/${{ github.repository }}/sekolah-web:${{ github.sha }}
+            ghcr.io/${{ github.repository }}/sekolah-web:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
@@ -46,4 +46,4 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         run: |
           echo "Image pushed successfully!"
-          echo "Web image: ghcr.io/${{ github.actor }}/sekolah-web:${{ github.sha }}"
+          echo "Web image: ghcr.io/${{ github.repository }}/sekolah-web:${{ github.sha }}"
