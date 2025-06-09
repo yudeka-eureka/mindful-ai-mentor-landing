@@ -1,0 +1,15 @@
+.git
+node_modules
+.idx
+.github
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.vscode
+.idea
+.DS_Store
+*.log
+*.swp
+*.swo

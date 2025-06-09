@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yudeka-eureka/sekolah-web:latest
+    container_name: sekolah-web
+    ports:
+      - "3030:80"
+    restart: unless-stopped
