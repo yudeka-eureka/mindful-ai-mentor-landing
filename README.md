@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
 
-## Project info
+# Ed.AI Gemini - Landing Page
 
-**URL**: https://lovable.dev/projects/390a28bf-7a78-4f2e-82d3-3ffcceeb6405
+Platform AI terdepan untuk guru Indonesia yang mengotomatisasi pembuatan RPP, Modul Ajar, LKPD, dan Bank Soal dengan teknologi Gemini.
 
-## How can I edit this code?
+## 🚀 Fitur Utama
 
-There are several ways of editing your application.
+- **AI Generate RPP**: Pembuatan RPP otomatis sesuai kurikulum
+- **Modul Ajar Instan**: Materi pembelajaran interaktif
+- **LKPD & Bank Soal**: Ribuan soal siap pakai
+- **Jadwal Otomatis**: Manajemen waktu mengajar
+- **Analitik Siswa**: Insight pembelajaran mendalam
 
-**Use Lovable**
+## 🎯 Filosofi Pembelajaran
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/390a28bf-7a78-4f2e-82d3-3ffcceeb6405) and start prompting.
+### Mindful - Meaningful - Joyful
+- **Mindful**: Pembelajaran yang penuh perhatian dan kesadaran
+- **Meaningful**: Materi yang relevan dan kontekstual  
+- **Joyful**: Proses belajar yang menyenangkan dan memotivasi
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Setup & Development
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js 18+ 
+- npm atau yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Instalasi
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone repository
+git clone <repository-url>
+cd ed-ai-gemini-landing
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build untuk Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Build aplikasi
+npm run build
 
-**Use GitHub Codespaces**
+# Preview build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Struktur Project
 
-## What technologies are used for this project?
+```
+src/
+├── components/
+│   ├── HeroSection.tsx      # Hero section dengan CTA utama
+│   ├── ProblemSolution.tsx  # Masalah guru dan solusi AI
+│   ├── FeaturesSection.tsx  # Fitur-fitur unggulan
+│   ├── HowItWorks.tsx       # Cara kerja 3 langkah
+│   ├── LearningApproach.tsx # Filosofi mindful-meaningful-joyful
+│   ├── Testimonials.tsx     # Testimoni guru dan siswa
+│   ├── PricingStrip.tsx     # Info beta gratis
+│   ├── FAQ.tsx              # Frequently Asked Questions
+│   ├── CTA.tsx              # Call to action section
+│   ├── SignupSection.tsx    # Form pendaftaran beta
+│   └── Footer.tsx           # Footer dengan links
+├── pages/
+│   └── Index.tsx            # Halaman utama
+└── hooks/
+    └── use-toast.ts         # Toast notifications
+```
 
-This project is built with:
+## 🎨 Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Warna Utama
+- **Primary**: #3B82F6 (Biru tosca cerah)
+- **Accent**: #16A34A (Hijau)
+- **Background**: Gradien biru-hijau halus
 
-## How can I deploy this project?
+### Typography
+- **Font Family**: Inter (Google Fonts)
+- **Heading**: Semi-bold, ukuran responsif
+- **Body**: Regular, line-height 1.6
 
-Simply open [Lovable](https://lovable.dev/projects/390a28bf-7a78-4f2e-82d3-3ffcceeb6405) and click on Share -> Publish.
+### Animasi
+- Fade-in pada scroll
+- Micro-interactions di tombol
+- Hover effects halus
+- Durasi 0.4s ease-in-out
 
-## Can I connect a custom domain to my Lovable project?
+## 📱 Responsivitas
 
-Yes, you can!
+Desain fully responsive untuk:
+- Mobile (320px+)
+- Tablet (768px+) 
+- Desktop (1024px+)
+- Large screens (1200px+)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## ⚡ Performance
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Lazy loading untuk gambar
+- Tree-shaking untuk bundle size optimal
+- Optimized images dari Unsplash
+- Target Lighthouse Performance > 90
+
+## 🔧 Teknologi
+
+- **Framework**: React 18 + TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+
+## 📧 Support
+
+Untuk bantuan dan pertanyaan:
+- Email: support@ed.ai
+- Website: [ed-ai.lovable.app](https://ed-ai.lovable.app)
+
+## 📄 License
+
+© 2024 Ed.AI Gemini. Made with ❤️ for Indonesian educators.
+```
