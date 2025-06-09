@@ -3,7 +3,7 @@ import { Mail, Shield, FileText } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-education-slate text-white py-12">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
@@ -22,10 +22,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Tautan Cepat</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#features" className="hover:text-primary transition-colors">Fitur</a></li>
-              <li><a href="#how-it-works" className="hover:text-primary transition-colors">Cara Kerja</a></li>
-              <li><a href="#testimonials" className="hover:text-primary transition-colors">Testimoni</a></li>
-              <li><a href="#faq" className="hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#features" className="hover:text-education-gold transition-colors">Fitur</a></li>
+              <li><a href="#how-it-works" className="hover:text-education-gold transition-colors">Cara Kerja</a></li>
+              <li><a href="#testimonials" className="hover:text-education-gold transition-colors">Testimoni</a></li>
+              <li><a href="#faq" className="hover:text-education-gold transition-colors">FAQ</a></li>
             </ul>
           </div>
 
@@ -34,13 +34,13 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="#" className="hover:text-primary transition-colors flex items-center">
+                <a href="#" className="hover:text-education-gold transition-colors flex items-center">
                   <Shield className="w-4 h-4 mr-2" />
                   Kebijakan Privasi
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors flex items-center">
+                <a href="#" className="hover:text-education-gold transition-colors flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
                   Syarat & Ketentuan
                 </a>

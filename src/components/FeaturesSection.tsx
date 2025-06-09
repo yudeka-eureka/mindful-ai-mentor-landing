@@ -34,7 +34,7 @@ const FeaturesSection = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-education-slate mb-4">
             Fitur Unggulan Platform
           </h2>
           <p className="text-lg text-gray-600">
@@ -49,10 +49,10 @@ const FeaturesSection = () => {
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <feature.icon className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 bg-education-primary/10 rounded-lg flex items-center justify-center mb-4">
+                <feature.icon className="w-6 h-6 text-education-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-education-slate mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-600">

@@ -8,7 +8,7 @@ const LearningApproach = () => {
       title: "Mindful",
       subtitle: "Hadir & Sadar",
       description: "Pembelajaran yang penuh perhatian dan kesadaran terhadap proses belajar siswa",
-      color: "text-red-500",
+      color: "text-education-warm",
       bgColor: "bg-red-50"
     },
     {
@@ -16,7 +16,7 @@ const LearningApproach = () => {
       title: "Meaningful",
       subtitle: "Relevan & Kontekstual",
       description: "Materi yang bermakna dan terhubung dengan kehidupan nyata siswa",
-      color: "text-primary",
+      color: "text-education-primary",
       bgColor: "bg-blue-50"
     },
     {
@@ -24,16 +24,16 @@ const LearningApproach = () => {
       title: "Joyful",
       subtitle: "Menyenangkan & Memotivasi",
       description: "Pembelajaran yang menggembirakan dan membangkitkan semangat belajar",
-      color: "text-orange-500",
+      color: "text-education-gold",
       bgColor: "bg-orange-50"
     }
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-br from-blue-50 to-green-50">
+    <section className="py-16 bg-gradient-to-br from-education-cream to-blue-50">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-education-slate mb-4">
             Keunggulan Pendekatan Pembelajaran Mendalam
           </h2>
           <p className="text-lg text-gray-600">
@@ -52,7 +52,7 @@ const LearningApproach = () => {
                 <approach.icon className={`w-8 h-8 ${approach.color}`} />
               </div>
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                <h3 className="text-2xl font-bold text-education-slate mb-2">
                   {approach.title}
                 </h3>
                 <h4 className="text-lg font-medium text-gray-700 mb-4">

@@ -24,7 +24,7 @@ const HowItWorks = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-education-slate mb-4">
             Cara Kerja 3 Langkah Mudah
           </h2>
           <p className="text-lg text-gray-600">
@@ -40,14 +40,14 @@ const HowItWorks = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="relative mb-6">
-                <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <div className="w-20 h-20 bg-education-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <step.icon className="w-10 h-10 text-white" />
                 </div>
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-education-secondary text-white rounded-full flex items-center justify-center text-sm font-bold">
                   {index + 1}
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <h3 className="text-xl font-semibold text-education-slate mb-3">
                 {step.title}
               </h3>
               <p className="text-gray-600">

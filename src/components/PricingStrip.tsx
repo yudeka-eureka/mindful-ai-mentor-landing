@@ -8,7 +8,7 @@ const PricingStrip = () => {
   };
 
   return (
-    <section className="py-12 bg-primary text-white">
+    <section className="py-12 bg-education-primary text-white">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center animate-fade-in">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
@@ -20,7 +20,7 @@ const PricingStrip = () => {
           <Button 
             onClick={scrollToSignup}
             size="lg" 
-            className="bg-white text-primary hover:bg-gray-100 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            className="bg-white text-education-primary hover:bg-gray-100 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             Daftar Gratis Sekarang
           </Button>

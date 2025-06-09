@@ -29,7 +29,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#3B82F6',
+					DEFAULT: '#2563EB', // Deep blue untuk profesionalitas
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -37,7 +37,7 @@ export default {
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				accent: {
-					DEFAULT: '#16A34A',
+					DEFAULT: '#059669', // Forest green untuk pertumbuhan & pembelajaran
 					foreground: 'hsl(var(--accent-foreground))'
 				},
 				destructive: {
@@ -65,6 +65,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Warna khusus untuk tema pendidikan
+				education: {
+					primary: '#1E40AF',    // Navy blue - kepercayaan & profesionalitas
+					secondary: '#0F766E',  // Teal - ketenangan & fokus  
+					warm: '#DC2626',       // Warm red - semangat & energi
+					gold: '#D97706',       // Amber - prestasi & pencapaian
+					sage: '#65A30D',       // Lime green - pertumbuhan & pembelajaran
+					cream: '#FEF3C7',      // Light cream - kehangatan
+					slate: '#475569'       // Cool gray - keseimbangan
 				}
 			},
 			borderRadius: {

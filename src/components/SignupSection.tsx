@@ -34,7 +34,7 @@ const SignupSection = () => {
     <section id="signup-section" className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-education-slate mb-4">
             Daftar Beta Gratis
           </h2>
           <p className="text-lg text-gray-600">
@@ -44,7 +44,7 @@ const SignupSection = () => {
 
         <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in">
           <div>
-            <Label htmlFor="name" className="text-gray-700 font-medium">Nama Lengkap</Label>
+            <Label htmlFor="name" className="text-education-slate font-medium">Nama Lengkap</Label>
             <Input
               id="name"
               type="text"
@@ -57,7 +57,7 @@ const SignupSection = () => {
           </div>
 
           <div>
-            <Label htmlFor="email" className="text-gray-700 font-medium">Email</Label>
+            <Label htmlFor="email" className="text-education-slate font-medium">Email</Label>
             <Input
               id="email"
               type="email"
@@ -70,7 +70,7 @@ const SignupSection = () => {
           </div>
 
           <div>
-            <Label htmlFor="school" className="text-gray-700 font-medium">Nama Sekolah</Label>
+            <Label htmlFor="school" className="text-education-slate font-medium">Nama Sekolah</Label>
             <Input
               id="school"
               type="text"
@@ -83,7 +83,7 @@ const SignupSection = () => {
           </div>
 
           <div>
-            <Label htmlFor="subject" className="text-gray-700 font-medium">Mata Pelajaran</Label>
+            <Label htmlFor="subject" className="text-education-slate font-medium">Mata Pelajaran</Label>
             <Select onValueChange={(value) => handleInputChange('subject', value)}>
               <SelectTrigger className="mt-2 h-12">
                 <SelectValue placeholder="Pilih mata pelajaran" />
@@ -100,7 +100,7 @@ const SignupSection = () => {
           </div>
 
           <div>
-            <Label htmlFor="phone" className="text-gray-700 font-medium">Nomor WhatsApp</Label>
+            <Label htmlFor="phone" className="text-education-slate font-medium">Nomor WhatsApp</Label>
             <Input
               id="phone"
               type="tel"
@@ -113,7 +113,7 @@ const SignupSection = () => {
 
           <Button 
             type="submit" 
-            className="w-full h-12 bg-primary hover:bg-blue-600 text-white font-semibold text-lg rounded-lg"
+            className="w-full h-12 bg-education-primary hover:bg-education-primary/90 text-white font-semibold text-lg rounded-lg"
           >
             Daftar Beta Gratis
           </Button>
