@@ -1,5 +1,6 @@
 
 import HeroSection from "@/components/HeroSection";
+import ScreenshotSection from "@/components/ScreenshotSection";
 import ProblemSolution from "@/components/ProblemSolution";
 import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorks from "@/components/HowItWorks";
@@ -14,6 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen font-inter">
       <HeroSection />
+      <ScreenshotSection />
       <ProblemSolution />
       <FeaturesSection />
       <HowItWorks />
