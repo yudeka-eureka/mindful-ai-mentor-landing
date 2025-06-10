@@ -16,7 +16,7 @@ const ScreenshotSection = () => {
           {/* Dashboard Screenshot */}
           <div className="relative group">
             <img 
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop"
+              src="/public/img1.png"
               alt="Dashboard AI Guru - Generate RPP Otomatis"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
@@ -33,34 +33,34 @@ const ScreenshotSection = () => {
           {/* RPP Generator Screenshot */}
           <div className="relative group">
             <img 
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop"
-              alt="Generator RPP AI - Input Kurikulum"
+              src="/public/img2.png"
+              alt="Generator Simulation AI - Input Kurikulum"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
             <div className="absolute top-4 left-4 bg-education-secondary text-white px-3 py-2 rounded-full text-sm font-semibold">
-              Generate RPP
+              Generate Alat Peraga
             </div>
             <div className="mt-4 text-center">
               <h3 className="text-lg font-semibold text-education-slate mb-2">Generator RPP</h3>
-              <p className="text-gray-600">Buat RPP dan Modul Ajar dalam hitungan menit</p>
+              <p className="text-gray-600">Buat Simulasi alat peraga Interaktif dalam hitungan menit dengan Format HTML</p>
             </div>
           </div>
           
           {/* Bank Soal Screenshot */}
           <div className="relative group">
             <img 
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop"
-              alt="Bank Soal & LKPD AI Generator"
+              src="/public/img3.png"
+              alt="Modul Ajar AI Generator"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
             <div className="absolute top-4 left-4 bg-education-warm text-white px-3 py-2 rounded-full text-sm font-semibold">
-              Bank Soal
+              Modul Ajar
             </div>
             <div className="mt-4 text-center">
-              <h3 className="text-lg font-semibold text-education-slate mb-2">Bank Soal & LKPD</h3>
-              <p className="text-gray-600">Ribuan soal dan LKPD siap pakai</p>
+              <h3 className="text-lg font-semibold text-education-slate mb-2">Modul Ajar AI</h3>
+              <p className="text-gray-600">Membuat modul Ajar Cepat menggunakan AI, Dan di Export ke PDF dan Google Docs</p>
             </div>
           </div>
         </div>

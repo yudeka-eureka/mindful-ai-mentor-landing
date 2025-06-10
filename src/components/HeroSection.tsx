@@ -21,7 +21,7 @@ const HeroSection = () => {
               <span className="text-education-warm font-semibold"> Joyful</span>!
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Otomatisasi RPP, Modul Ajar, LKPD, Bank Soal & Jadwal hanya dalam hitungan menit.
+              Otomatisasi RPP, Modul Ajar, LKPD, Bank Soal & Simulasi Pembelajaran Interaktif.
             </p>
             <Button 
               onClick={handleSignup}
@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in-right">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop"
+                src="/public/img1.png"
                 alt="Dashboard AI Guru - Generate RPP Otomatis"
                 className="w-full h-auto rounded-lg shadow-2xl border-4 border-white"
                 loading="lazy"
