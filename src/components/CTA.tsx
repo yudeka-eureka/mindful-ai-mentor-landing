@@ -2,9 +2,8 @@
 import { Button } from "@/components/ui/button";
 
 const CTA = () => {
-  const scrollToSignup = () => {
-    const element = document.getElementById('signup-section');
-    element?.scrollIntoView({ behavior: 'smooth' });
+  const handleSignup = () => {
+    window.open('https://www.eudeka.id/contact/', '_blank');
   };
 
   return (
@@ -18,7 +17,7 @@ const CTA = () => {
             Bergabung dengan ribuan guru yang sudah merasakan transformasi mengajar dengan AI
           </p>
           <Button 
-            onClick={scrollToSignup}
+            onClick={handleSignup}
             size="lg" 
             className="bg-white text-education-primary hover:bg-gray-100 px-12 py-8 text-xl font-bold rounded-xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
           >

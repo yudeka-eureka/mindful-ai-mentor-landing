@@ -1,5 +1,5 @@
 
-import { FileText, BookOpen, PenTool, Calendar, BarChart } from "lucide-react";
+import { FileText, BookOpen, PenTool, Settings } from "lucide-react";
 
 const FeaturesSection = () => {
   const features = [
@@ -19,14 +19,9 @@ const FeaturesSection = () => {
       description: "Ribuan soal siap pakai"
     },
     {
-      icon: Calendar,
-      title: "Jadwal Otomatis",
-      description: "Manajemen waktu mengajar"
-    },
-    {
-      icon: BarChart,
-      title: "Analitik Siswa",
-      description: "Insight pembelajaran mendalam"
+      icon: Settings,
+      title: "Simulasi Alat Peraga",
+      description: "Pembelajaran visual interaktif"
     }
   ];
 
@@ -42,7 +37,7 @@ const FeaturesSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div 
               key={index} 

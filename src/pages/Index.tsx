@@ -8,7 +8,6 @@ import Testimonials from "@/components/Testimonials";
 import PricingStrip from "@/components/PricingStrip";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
-import SignupSection from "@/components/SignupSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -23,7 +22,6 @@ const Index = () => {
       <PricingStrip />
       <FAQ />
       <CTA />
-      <SignupSection />
       <Footer />
     </div>
   );
