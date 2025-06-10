@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Ed.AI Gemini</h3>
+            <h3 className="text-2xl font-bold mb-4">Eudeka.id</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Platform AI terdepan untuk guru Indonesia. Wujudkan pembelajaran yang mindful, meaningful, dan joyful dengan teknologi Gemini.
             </p>
             <div className="flex items-center space-x-2 text-gray-300">
               <Mail className="w-4 h-4" />
-              <span>support@ed.ai</span>
+              <span>connect@eudeka.id</span>
             </div>
           </div>
 
