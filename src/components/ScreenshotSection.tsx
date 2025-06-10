@@ -16,7 +16,7 @@ const ScreenshotSection = () => {
           {/* Dashboard Screenshot */}
           <div className="relative group">
             <img 
-              src="/public/img1.png"
+              src="/img1.png"
               alt="Dashboard AI Guru - Generate RPP Otomatis"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
@@ -33,7 +33,7 @@ const ScreenshotSection = () => {
           {/* RPP Generator Screenshot */}
           <div className="relative group">
             <img 
-              src="/public/img2.png"
+              src="/img2.png"
               alt="Generator Simulation AI - Input Kurikulum"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
@@ -50,7 +50,7 @@ const ScreenshotSection = () => {
           {/* Bank Soal Screenshot */}
           <div className="relative group">
             <img 
-              src="/public/img3.png"
+              src="/img3.png"
               alt="Modul Ajar AI Generator"
               className="w-full h-auto rounded-lg shadow-xl border-4 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"

@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in-right">
             <div className="relative">
               <img 
-                src="/public/img1.png"
+                src="/img1.png"
                 alt="Dashboard AI Guru - Generate RPP Otomatis"
                 className="w-full h-auto rounded-lg shadow-2xl border-4 border-white"
                 loading="lazy"
