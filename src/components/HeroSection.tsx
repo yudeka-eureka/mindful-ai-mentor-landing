@@ -32,25 +32,59 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Right Content - Mockup */}
+          {/* Right Content - App Screenshots */}
           <div className="relative animate-slide-in-right">
-            <div className="relative">
-              {/* Laptop Mockup */}
-              <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop"
-                alt="Dashboard Guru AI"
-                className="w-full h-auto rounded-lg shadow-2xl"
-                loading="lazy"
-              />
-              
-              {/* Phone Mockup - Floating */}
-              <div className="absolute -bottom-8 -left-8 w-32 md:w-40">
+            <div className="grid grid-cols-2 gap-4">
+              {/* Main Dashboard Screenshot */}
+              <div className="col-span-2 relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=600&fit=crop"
-                  alt="Mobile App AI"
-                  className="w-full h-auto rounded-xl shadow-xl"
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop"
+                  alt="Dashboard AI Guru - Generate RPP Otomatis"
+                  className="w-full h-auto rounded-lg shadow-2xl border-4 border-white"
                   loading="lazy"
                 />
+                <div className="absolute top-4 left-4 bg-education-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Dashboard Utama
+                </div>
+              </div>
+              
+              {/* RPP Generator Screenshot */}
+              <div className="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop"
+                  alt="Generator RPP AI - Input Kurikulum"
+                  className="w-full h-auto rounded-lg shadow-xl border-2 border-white"
+                  loading="lazy"
+                />
+                <div className="absolute bottom-2 left-2 bg-education-secondary text-white px-2 py-1 rounded text-xs font-medium">
+                  Generate RPP
+                </div>
+              </div>
+              
+              {/* LKPD & Bank Soal Screenshot */}
+              <div className="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop"
+                  alt="Bank Soal & LKPD AI Generator"
+                  className="w-full h-auto rounded-lg shadow-xl border-2 border-white"
+                  loading="lazy"
+                />
+                <div className="absolute bottom-2 left-2 bg-education-warm text-white px-2 py-1 rounded text-xs font-medium">
+                  Bank Soal
+                </div>
+              </div>
+            </div>
+            
+            {/* Floating Mobile App Preview */}
+            <div className="absolute -bottom-8 -left-8 w-32 md:w-40 z-10">
+              <img 
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=600&fit=crop"
+                alt="Mobile App AI Guru"
+                className="w-full h-auto rounded-xl shadow-2xl border-4 border-white"
+                loading="lazy"
+              />
+              <div className="absolute top-2 left-2 bg-education-gold text-white px-2 py-1 rounded text-xs font-bold">
+                Mobile
               </div>
             </div>
           </div>
